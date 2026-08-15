@@ -1,0 +1,5 @@
+services:
+    docker-demo:
+        image: bebanana18/docker-demo2:1.0.0
+        ports:
+            - "3001:3001"
