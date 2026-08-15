@@ -39,6 +39,6 @@ jobs:
           cd /home/ubuntu/docker-demo-2
           git pull
           docker compose down
-          docker compose build --no-cache -build -d
+          docker compose  --no-cache --build -d
 
 
